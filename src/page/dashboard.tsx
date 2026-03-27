@@ -19,21 +19,21 @@ function Dashboard() {
       {/* BUTTON */}
       <div className="flex gap-4 font-bold">
         <button
-          onClick={() => navigate("/profile1")}
+          onClick={() => navigate("/naura")}
           className="bg-white text-blue-500 px-4 py-2 rounded"
         >
           NAURA
         </button>
 
         <button
-          onClick={() => navigate("/profile2")}
+          onClick={() => navigate("/fawwaz-dzaki-rahman")}
           className="bg-white text-blue-500 px-4 py-2 rounded"
         >
           FAWWAS
         </button>
 
         <button
-          onClick={() => navigate("/profile3")}
+          onClick={() => navigate("/fadil-mohammad")}
           className="bg-white text-blue-500 px-4 py-2 rounded"
         >
           FADIL

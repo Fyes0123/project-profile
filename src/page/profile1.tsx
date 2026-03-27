@@ -11,7 +11,7 @@ function Profile1() {
         {/* HEADER */}
         <div className="flex items-center gap-4">
           <img
-            src="/foto.jpeg"
+            src="fotoNaura.jpeg"
             className="w-20 h-20 rounded-full object-cover"
           />
 

@@ -9,9 +9,9 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<Dashboard />} />
-      <Route path="/profile1" element={<Profile1 />} />
-      <Route path="/profile2" element={<Profile2 />} />
-      <Route path="/profile3" element={<Profile3 />} />
+      <Route path="/naura" element={<Profile1 />} />
+      <Route path="/fawwaz-dzaki-rahman" element={<Profile2 />} />
+      <Route path="/fadil-mohammad" element={<Profile3 />} />
     </Routes>
   );
 }
