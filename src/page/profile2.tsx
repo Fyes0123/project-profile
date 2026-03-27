@@ -4,7 +4,7 @@ function Profile2() {
   const navigate = useNavigate();
 
   return (
-     <div className="min-h-screen bg-pink-300 flex items-center justify-center bg-cover bg-center">
+     <div className="min-h-screen bg-green-800 flex items-center justify-center bg-cover bg-center">
       
       <div className="bg-white p-8 rounded-2xl shadow-xl max-w-3xl w-full">
 
@@ -71,7 +71,7 @@ Saat ini, saya memiliki minat yang kuat dalam bidang seni. Sebagai mahasiswa, tu
         {/* BUTTON */}
         <button
           onClick={() => navigate("/")}
-          className="mt-6 bg-pink-500 text-white px-4 py-2 rounded"
+          className="mt-6 bg-green-700 text-white px-4 py-2 rounded"
         >
           Kembali
         </button>
