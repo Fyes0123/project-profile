@@ -4,7 +4,7 @@ function Dashboard() {
   const navigate = useNavigate();
 
   return (
-    <div className="min-h-screen bg-blue-500 flex flex-col items-center justify-center text-center p-6">
+    <div className="min-h-screen bg-blue-800 flex flex-col items-center justify-center text-center p-6">
 
       <h1 className="text-3xl font-bold text-white mb-4">
         HAI KAMI DARI KELOMPOK 1
@@ -20,21 +20,21 @@ function Dashboard() {
       <div className="flex gap-4 font-bold">
         <button
           onClick={() => navigate("/naura")}
-          className="bg-white text-blue-500 px-4 py-2 rounded"
+          className="bg-white text-blue-700 px-4 py-2 rounded"
         >
           NAURA
         </button>
 
         <button
           onClick={() => navigate("/fawwaz-dzaki-rahman")}
-          className="bg-white text-blue-500 px-4 py-2 rounded"
+          className="bg-white text-blue-700 px-4 py-2 rounded"
         >
           FAWWAS
         </button>
 
         <button
           onClick={() => navigate("/fadil-mohammad")}
-          className="bg-white text-blue-500 px-4 py-2 rounded"
+          className="bg-white text-blue-700 px-4 py-2 rounded"
         >
           FADIL
         </button>
