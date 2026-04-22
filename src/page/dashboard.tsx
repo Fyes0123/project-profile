@@ -38,6 +38,13 @@ function Dashboard() {
         >
           FADIL
         </button>
+
+        <button
+        onClick={() => navigate("/tracker-test")}
+          className="bg-white text-blue-700 px-4 py-2 rounded"
+        >
+          Tracker
+        </button>
       </div>
 
     </div>
