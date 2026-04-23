@@ -1,21 +1,28 @@
-import GhostExplorer from "../components/GhostExplorer.jsx";
+import GhostExplorer from "../components/GhostExplorer";
 import { useNavigate } from "react-router-dom";
 
-function UseEffectTest() {
+export default function UseEffectTest() {
   const navigate = useNavigate();
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen">
-      <GhostExplorer />
+    <div className="min-h-screen bg-slate-950 flex items-center justify-center bg-cover bg-center p-4">
+      
+      {/* Card Container */}
+      <div className="bg-slate-900 p-8 rounded-2xl shadow-xl max-w-3xl w-full text-slate-100">
+        
+        <GhostExplorer />
 
-      {/* BUTTON */}
-      <button
-        onClick={() => navigate("/")}
-        className="mt-6 bg-yellow-400 text-white px-4 py-2 rounded"
-      >
-        Kembali
-      </button>
+        {/* Button */}
+        <div className="flex justify-center mt-6">
+          <button
+            onClick={() => navigate("/")}
+            className="bg-slate-700 hover:bg-slate-600 px-4 py-2 rounded transition"
+          >
+            Kembali
+          </button>
+        </div>
+
+      </div>
     </div>
   );
 }
-export default UseEffectTest;
